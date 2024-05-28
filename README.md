@@ -10,10 +10,17 @@ To write a python program to find the inverse of a matrix
 ### Step 3:Using the np.linalg.matrix_rank(), we can find the inverse of the given matrix
 ### Step 4: End the program
 ## Program:
-![Screenshot 2024-04-12 140931](https://github.com/Dhanushmukesh/INVERSE-OF-A-MATRIX/assets/155508176/1279e86c-ed69-4a93-8214-6a932d114555)
-
+#Program to find the inverse of a matrix.
+## Developed by: Dhanush.G
+## RegisterNumber: 2305002006
+```
+import numpy as np
+A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+inverse=np.linalg.inv(A)
+print(inverse)
+```
 ## Output:
-![Screenshot 2024-04-12 140944](https://github.com/Dhanushmukesh/INVERSE-OF-A-MATRIX/assets/155508176/a356fdcb-d329-4b29-b337-edc20257050b)
+![Screenshot 2024-05-28 084453](https://github.com/Dhanushmukesh/INVERSE-OF-A-MATRIX/assets/155508176/0a49b247-1b82-4729-8924-7c4711fe337b)
 
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
